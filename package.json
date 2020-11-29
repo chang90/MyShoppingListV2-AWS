@@ -5,10 +5,10 @@
     "private": true,
     "dependencies": {},
     "devDependencies": {
-        "jest": "^24.7.1",
-        "aws-sdk": "^2.655.0",
         "@types/aws-lambda": "^8.10.51",
         "@types/node": "^13.13.5",
+        "aws-sdk": "^2.799.0",
+        "jest": "^24.7.1",
         "typescript": "^3.8.3"
     },
     "scripts": {

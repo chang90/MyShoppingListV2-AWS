@@ -9,6 +9,6 @@ exports.lambdaRunningHandler = async (
     const queries = JSON.stringify(event.queryStringParameters);
     return {
       statusCode: 200,
-      body: `aws-lambda API is running... Queries: ${queries}`
+      body: `aws-lambda API is running...`
     }
   }
